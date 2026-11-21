@@ -36,13 +36,18 @@ const securityHeaders = [
   ...(isProdEnv ? [{ key: "Strict-Transport-Security", value: "max-age=63072000; includeSubDomains; preload" }] : []),
 ];
 
+const DEMO_FILES = ["./.demo-db/seeded.tar.gz", "./.demo-db/secrets.json", "./node_modules/@electric-sql/pglite/dist/*.wasm", "./node_modules/@electric-sql/pglite/dist/*.data"];
+
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
-  serverExternalPackages: ["sharp", "pg", "nodemailer", "@resvg/resvg-js"],
+  serverExternalPackages: ["sharp", "pg", "nodemailer", "@resvg/resvg-js", "@electric-sql/pglite"],
   // Serverless hosts (Vercel): the local media store is copied in at build time
   // (npm run media:sync); ship it with the routes that read it.
   outputFileTracingIncludes: {
+    // Demo mode (no DATABASE_URL): the seeded embedded-Postgres snapshot and its runtime.
+    "/*": DEMO_FILES,
+    "/**": DEMO_FILES,
     "/media/**": ["./storage/products/**/*", "./storage/outfits/**/*"],
     "/admin/**": ["./storage/print-files/**/*"],
   },

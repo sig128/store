@@ -42,7 +42,7 @@ function create() {
       cookiePrefix: "aha_admin",
       useSecureCookies: e.APP_URL.startsWith("https://"),
     },
-    trustedOrigins: [e.APP_URL],
+    trustedOrigins: [e.APP_URL, ...[process.env.VERCEL_URL, process.env.VERCEL_BRANCH_URL, process.env.VERCEL_PROJECT_PRODUCTION_URL].filter(Boolean).map((h) => `https://${h}`)],
     plugins: [nextCookies()],
   });
 }

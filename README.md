@@ -229,6 +229,10 @@ Integration tests run the real order code against Postgres: verified payment →
 
 ## 10. Deploying (when you're ready)
 
+### Vercel with no settings (demo)
+
+Import the repository in Vercel and deploy: no environment variables are needed. Without `DATABASE_URL` the build seeds the Drop 01 catalogue into embedded Postgres (PGlite) and every server instance starts from that snapshot, so bags and simulated orders reset when an instance restarts. Payments run through the built-in simulator only. The admin owner is `owner@afterhours.test`; its password is printed in the build log ("Admin owner created"). Add a real `DATABASE_URL` (for example Neon from the Vercel Storage tab) to keep data.
+
 ### Vercel preview (staging)
 
 `vercel.json` builds with `npm run build:vercel`: apply migrations, seed the development catalogue if the database is empty, copy the concept media into `./storage` (`npm run media:sync`), then `next build`. The media files ship inside the functions that read them (see `outputFileTracingIncludes` in `next.config.ts`), so `STORAGE_DRIVER=local` works there read-only: admin image uploads need S3-compatible storage. Set `APP_ENV=staging`, `PAYMENTS_SIMULATOR=1`, `APP_URL`/`BETTER_AUTH_URL` to the site's address, `DATABASE_URL`, `COOKIE_SECRET`, `BETTER_AUTH_SECRET`, `CRON_SECRET` and `SEED_ADMIN_PASSWORD`. Staging never takes real payments and tells search engines to stay away. The Hobby plan runs the cron once a day; checkout and the PayPal-style capture don't wait for it.
