@@ -1,0 +1,184 @@
+{
+  "generatedAt": "2026-11-21T18:08:25.435Z",
+  "grid": {
+    "w": 240,
+    "h": 300,
+    "heightScale": 32
+  },
+  "metersPerPx": 0.000625,
+  "canvas": {
+    "w": 1200,
+    "h": 1500
+  },
+  "note": "Concept geometry generated from the 2D garment drawings (scripts/art/garment3d.ts). Not a scan of produced stock.",
+  "variants": {
+    "LS-WBLK": {
+      "product": "last-set-pump-cover-tee",
+      "category": "tee",
+      "fabric": "jersey",
+      "color": "#2b2a28",
+      "trim": null,
+      "heroView": "back",
+      "views": {
+        "front": {
+          "albedo": "/3d/LS-WBLK/front-albedo.webp",
+          "albedoSm": "/3d/LS-WBLK/front-albedo-sm.webp",
+          "normal": "/3d/LS-WBLK/front-normal.webp",
+          "normalSm": "/3d/LS-WBLK/front-normal-sm.webp",
+          "orm": "/3d/LS-WBLK/front-orm.webp",
+          "ormSm": "/3d/LS-WBLK/front-orm-sm.webp",
+          "height": "/3d/LS-WBLK/front-height.bin"
+        },
+        "back": {
+          "albedo": "/3d/LS-WBLK/back-albedo.webp",
+          "albedoSm": "/3d/LS-WBLK/back-albedo-sm.webp",
+          "normal": "/3d/LS-WBLK/back-normal.webp",
+          "normalSm": "/3d/LS-WBLK/back-normal-sm.webp",
+          "orm": "/3d/LS-WBLK/back-orm.webp",
+          "ormSm": "/3d/LS-WBLK/back-orm-sm.webp",
+          "height": "/3d/LS-WBLK/back-height.bin"
+        }
+      }
+    },
+    "NR-CHAR": {
+      "product": "night-run-stringer",
+      "category": "stringer",
+      "fabric": "jersey",
+      "color": "#3a3a37",
+      "trim": null,
+      "heroView": "back",
+      "views": {
+        "front": {
+          "albedo": "/3d/NR-CHAR/front-albedo.webp",
+          "albedoSm": "/3d/NR-CHAR/front-albedo-sm.webp",
+          "normal": "/3d/NR-CHAR/front-normal.webp",
+          "normalSm": "/3d/NR-CHAR/front-normal-sm.webp",
+          "orm": "/3d/NR-CHAR/front-orm.webp",
+          "ormSm": "/3d/NR-CHAR/front-orm-sm.webp",
+          "height": "/3d/NR-CHAR/front-height.bin"
+        },
+        "back": {
+          "albedo": "/3d/NR-CHAR/back-albedo.webp",
+          "albedoSm": "/3d/NR-CHAR/back-albedo-sm.webp",
+          "normal": "/3d/NR-CHAR/back-normal.webp",
+          "normalSm": "/3d/NR-CHAR/back-normal-sm.webp",
+          "orm": "/3d/NR-CHAR/back-orm.webp",
+          "ormSm": "/3d/NR-CHAR/back-orm-sm.webp",
+          "height": "/3d/NR-CHAR/back-height.bin"
+        }
+      }
+    },
+    "HC-ASPH": {
+      "product": "heat-check-training-singlet",
+      "category": "singlet",
+      "fabric": "jersey",
+      "color": "#4d504e",
+      "trim": "#e3dccd",
+      "heroView": "front",
+      "views": {
+        "front": {
+          "albedo": "/3d/HC-ASPH/front-albedo.webp",
+          "albedoSm": "/3d/HC-ASPH/front-albedo-sm.webp",
+          "normal": "/3d/HC-ASPH/front-normal.webp",
+          "normalSm": "/3d/HC-ASPH/front-normal-sm.webp",
+          "orm": "/3d/HC-ASPH/front-orm.webp",
+          "ormSm": "/3d/HC-ASPH/front-orm-sm.webp",
+          "height": "/3d/HC-ASPH/front-height.bin"
+        },
+        "back": {
+          "albedo": "/3d/HC-ASPH/back-albedo.webp",
+          "albedoSm": "/3d/HC-ASPH/back-albedo-sm.webp",
+          "normal": "/3d/HC-ASPH/back-normal.webp",
+          "normalSm": "/3d/HC-ASPH/back-normal-sm.webp",
+          "orm": "/3d/HC-ASPH/back-orm.webp",
+          "ormSm": "/3d/HC-ASPH/back-orm-sm.webp",
+          "height": "/3d/HC-ASPH/back-height.bin"
+        }
+      }
+    },
+    "AH-WBLK-CS": {
+      "product": "after-hours-heavyweight-hoodie",
+      "category": "hoodie",
+      "fabric": "fleece",
+      "color": "#2b2a28",
+      "trim": null,
+      "heroView": "back",
+      "views": {
+        "front": {
+          "albedo": "/3d/AH-WBLK-CS/front-albedo.webp",
+          "albedoSm": "/3d/AH-WBLK-CS/front-albedo-sm.webp",
+          "normal": "/3d/AH-WBLK-CS/front-normal.webp",
+          "normalSm": "/3d/AH-WBLK-CS/front-normal-sm.webp",
+          "orm": "/3d/AH-WBLK-CS/front-orm.webp",
+          "ormSm": "/3d/AH-WBLK-CS/front-orm-sm.webp",
+          "height": "/3d/AH-WBLK-CS/front-height.bin"
+        },
+        "back": {
+          "albedo": "/3d/AH-WBLK-CS/back-albedo.webp",
+          "albedoSm": "/3d/AH-WBLK-CS/back-albedo-sm.webp",
+          "normal": "/3d/AH-WBLK-CS/back-normal.webp",
+          "normalSm": "/3d/AH-WBLK-CS/back-normal-sm.webp",
+          "orm": "/3d/AH-WBLK-CS/back-orm.webp",
+          "ormSm": "/3d/AH-WBLK-CS/back-orm-sm.webp",
+          "height": "/3d/AH-WBLK-CS/back-height.bin"
+        }
+      }
+    },
+    "FW-WBLK": {
+      "product": "floor-work-training-shorts",
+      "category": "shorts",
+      "fabric": "woven",
+      "color": "#2b2a28",
+      "trim": null,
+      "heroView": "front",
+      "views": {
+        "front": {
+          "albedo": "/3d/FW-WBLK/front-albedo.webp",
+          "albedoSm": "/3d/FW-WBLK/front-albedo-sm.webp",
+          "normal": "/3d/FW-WBLK/front-normal.webp",
+          "normalSm": "/3d/FW-WBLK/front-normal-sm.webp",
+          "orm": "/3d/FW-WBLK/front-orm.webp",
+          "ormSm": "/3d/FW-WBLK/front-orm-sm.webp",
+          "height": "/3d/FW-WBLK/front-height.bin"
+        },
+        "back": {
+          "albedo": "/3d/FW-WBLK/back-albedo.webp",
+          "albedoSm": "/3d/FW-WBLK/back-albedo-sm.webp",
+          "normal": "/3d/FW-WBLK/back-normal.webp",
+          "normalSm": "/3d/FW-WBLK/back-normal-sm.webp",
+          "orm": "/3d/FW-WBLK/back-orm.webp",
+          "ormSm": "/3d/FW-WBLK/back-orm-sm.webp",
+          "height": "/3d/FW-WBLK/back-height.bin"
+        }
+      }
+    },
+    "CT-NIGHT": {
+      "product": "closing-time-warm-up-jacket",
+      "category": "jacket",
+      "fabric": "woven",
+      "color": "#242423",
+      "trim": "#ee7c5e",
+      "heroView": "back",
+      "views": {
+        "front": {
+          "albedo": "/3d/CT-NIGHT/front-albedo.webp",
+          "albedoSm": "/3d/CT-NIGHT/front-albedo-sm.webp",
+          "normal": "/3d/CT-NIGHT/front-normal.webp",
+          "normalSm": "/3d/CT-NIGHT/front-normal-sm.webp",
+          "orm": "/3d/CT-NIGHT/front-orm.webp",
+          "ormSm": "/3d/CT-NIGHT/front-orm-sm.webp",
+          "height": "/3d/CT-NIGHT/front-height.bin"
+        },
+        "back": {
+          "albedo": "/3d/CT-NIGHT/back-albedo.webp",
+          "albedoSm": "/3d/CT-NIGHT/back-albedo-sm.webp",
+          "normal": "/3d/CT-NIGHT/back-normal.webp",
+          "normalSm": "/3d/CT-NIGHT/back-normal-sm.webp",
+          "orm": "/3d/CT-NIGHT/back-orm.webp",
+          "ormSm": "/3d/CT-NIGHT/back-orm-sm.webp",
+          "height": "/3d/CT-NIGHT/back-height.bin"
+        }
+      }
+    }
+  }
+}

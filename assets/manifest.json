@@ -1,0 +1,709 @@
+{
+  "generatedAt": "2026-11-15T23:31:30.853Z",
+  "brand": "After Hours Athletics",
+  "notes": [
+    "All artwork in this repository was drawn programmatically for this project (scripts/art). No third-party images, photographs or game assets are used.",
+    "Concept renders are illustrations of intended garments. They are NOT photographs of produced stock and are labelled 'Concept render' wherever shown.",
+    "Print files are design masters. Before production they need designer review, colour separation and supplier approval (status: concept).",
+    "3D Rack maps (public/3d) are baked by scripts/art/garment3d.ts from the same garment drawings: concept geometry for the real-time Rack, not scans of produced stock. Listed in public/3d/manifest.json."
+  ],
+  "fonts": [
+    {
+      "key": "anton",
+      "name": "Anton",
+      "license": "SIL OFL 1.1",
+      "source": "npm @fontsource (@fontsource)",
+      "version": "2.116",
+      "usage": "Outlined into print artwork (no font embedding in print files)."
+    },
+    {
+      "key": "shoulders900",
+      "name": "Big Shoulders Display Black",
+      "license": "SIL OFL 1.1",
+      "source": "npm @fontsource (@fontsource)",
+      "version": "2.002",
+      "usage": "Outlined into print artwork (no font embedding in print files)."
+    },
+    {
+      "key": "shoulders700",
+      "name": "Big Shoulders Display Bold",
+      "license": "SIL OFL 1.1",
+      "source": "npm @fontsource (@fontsource)",
+      "version": "2.002",
+      "usage": "Outlined into print artwork (no font embedding in print files)."
+    },
+    {
+      "key": "shoulders500",
+      "name": "Big Shoulders Display Medium",
+      "license": "SIL OFL 1.1",
+      "source": "npm @fontsource (@fontsource)",
+      "version": "2.002",
+      "usage": "Outlined into print artwork (no font embedding in print files)."
+    },
+    {
+      "key": "stencil800",
+      "name": "Big Shoulders Stencil Display ExtraBold",
+      "license": "SIL OFL 1.1",
+      "source": "npm @fontsource (@fontsource)",
+      "version": "2.001",
+      "usage": "Outlined into print artwork (no font embedding in print files)."
+    },
+    {
+      "key": "graduate",
+      "name": "Graduate",
+      "license": "SIL OFL 1.1",
+      "source": "npm @fontsource (@fontsource)",
+      "version": "1.001",
+      "usage": "Outlined into print artwork (no font embedding in print files)."
+    },
+    {
+      "key": "yellowtail",
+      "name": "Yellowtail",
+      "license": "Apache License 2.0",
+      "source": "npm @fontsource (@fontsource)",
+      "version": "1.002",
+      "usage": "Outlined into print artwork (no font embedding in print files)."
+    },
+    {
+      "key": "mono600",
+      "name": "IBM Plex Mono SemiBold",
+      "license": "SIL OFL 1.1",
+      "source": "npm @fontsource (@fontsource)",
+      "version": "2.003",
+      "usage": "Outlined into print artwork (no font embedding in print files)."
+    },
+    {
+      "name": "Big Shoulders (variable)",
+      "license": "SIL OFL 1.1",
+      "usage": "Website display type",
+      "source": "@fontsource-variable/big-shoulders"
+    },
+    {
+      "name": "Archivo (variable)",
+      "license": "SIL OFL 1.1",
+      "usage": "Website UI/shopping type",
+      "source": "@fontsource-variable/archivo"
+    },
+    {
+      "name": "IBM Plex Mono",
+      "license": "SIL OFL 1.1",
+      "usage": "Website measurement numerals",
+      "source": "@fontsource/ibm-plex-mono"
+    },
+    {
+      "name": "Big Shoulders Stencil Display 800",
+      "license": "SIL OFL 1.1",
+      "usage": "Locker Tag personalisation (preview + production)",
+      "source": "@fontsource/big-shoulders-stencil-display"
+    }
+  ],
+  "printFiles": [
+    {
+      "code": "NG-REAR-L",
+      "version": 1,
+      "family": "night_garage",
+      "title": "Night Garage rear print — light inks",
+      "file": "assets/print-files/NG-REAR-L.v1.svg",
+      "inks": [
+        "#ebe3d2",
+        "#ee7c5e",
+        "#f1a65b",
+        "#5fa59c"
+      ],
+      "knockOutColour": "#2b2a28",
+      "rights": "original_owned — drawn for this project; fonts used are open-licensed and outlined",
+      "status": "concept"
+    },
+    {
+      "code": "NG-REAR-D",
+      "version": 1,
+      "family": "night_garage",
+      "title": "Night Garage rear print — dark inks",
+      "file": "assets/print-files/NG-REAR-D.v1.svg",
+      "inks": [
+        "#2a2a28",
+        "#d6654a",
+        "#c98238",
+        "#1f4d4a"
+      ],
+      "knockOutColour": "#dcd3c1",
+      "rights": "original_owned — drawn for this project; fonts used are open-licensed and outlined",
+      "status": "concept"
+    },
+    {
+      "code": "NG-PANEL",
+      "version": 1,
+      "family": "night_garage",
+      "title": "Night Garage jacket back panel",
+      "file": "assets/print-files/NG-PANEL.v1.svg",
+      "inks": [
+        "#ebe3d2",
+        "#ee7c5e",
+        "#f1a65b",
+        "#5fa59c"
+      ],
+      "knockOutColour": "#242423",
+      "rights": "original_owned — drawn for this project; fonts used are open-licensed and outlined",
+      "status": "concept"
+    },
+    {
+      "code": "AH-STAMP-L",
+      "version": 1,
+      "family": "night_garage",
+      "title": "After Hours chest stamp — light ink",
+      "file": "assets/print-files/AH-STAMP-L.v1.svg",
+      "inks": [
+        "#ebe3d2"
+      ],
+      "knockOutColour": "#2b2a28",
+      "rights": "original_owned — drawn for this project; fonts used are open-licensed and outlined",
+      "status": "concept"
+    },
+    {
+      "code": "AH-STAMP-D",
+      "version": 1,
+      "family": "night_garage",
+      "title": "After Hours chest stamp — dark ink",
+      "file": "assets/print-files/AH-STAMP-D.v1.svg",
+      "inks": [
+        "#2a2a28"
+      ],
+      "knockOutColour": "#dcd3c1",
+      "rights": "original_owned — drawn for this project; fonts used are open-licensed and outlined",
+      "status": "concept"
+    },
+    {
+      "code": "LRC-BACK-L",
+      "version": 1,
+      "family": "last_rep_club",
+      "title": "Last Rep Club back graphic",
+      "file": "assets/print-files/LRC-BACK-L.v1.svg",
+      "inks": [
+        "#ebe3d2",
+        "#ee7c5e"
+      ],
+      "knockOutColour": "#3a3a37",
+      "rights": "original_owned — drawn for this project; fonts used are open-licensed and outlined",
+      "status": "concept"
+    },
+    {
+      "code": "LRC-SIDE-L",
+      "version": 1,
+      "family": "last_rep_club",
+      "title": "Last Rep Club side mark",
+      "file": "assets/print-files/LRC-SIDE-L.v1.svg",
+      "inks": [
+        "#ebe3d2"
+      ],
+      "knockOutColour": "#2b2a28",
+      "rights": "original_owned — drawn for this project; fonts used are open-licensed and outlined",
+      "status": "concept"
+    },
+    {
+      "code": "CS-REAR-L",
+      "version": 1,
+      "family": "coastal_shift",
+      "title": "Coastal Shift rear print",
+      "file": "assets/print-files/CS-REAR-L.v1.svg",
+      "inks": [
+        "#ebe3d2",
+        "#ee7c5e",
+        "#f1a65b",
+        "#5fa59c"
+      ],
+      "knockOutColour": "#2b2a28",
+      "rights": "original_owned — drawn for this project; fonts used are open-licensed and outlined",
+      "status": "concept"
+    },
+    {
+      "code": "CS-CHEST-L",
+      "version": 1,
+      "family": "coastal_shift",
+      "title": "Coastal Shift chest — light inks",
+      "file": "assets/print-files/CS-CHEST-L.v1.svg",
+      "inks": [
+        "#ebe3d2",
+        "#ee7c5e",
+        "#f1a65b"
+      ],
+      "knockOutColour": "#4d504e",
+      "rights": "original_owned — drawn for this project; fonts used are open-licensed and outlined",
+      "status": "concept"
+    },
+    {
+      "code": "CS-CHEST-D",
+      "version": 1,
+      "family": "coastal_shift",
+      "title": "Coastal Shift chest — dark inks",
+      "file": "assets/print-files/CS-CHEST-D.v1.svg",
+      "inks": [
+        "#2a2a28",
+        "#d6654a",
+        "#c98238"
+      ],
+      "knockOutColour": "#dcd3c1",
+      "rights": "original_owned — drawn for this project; fonts used are open-licensed and outlined",
+      "status": "concept"
+    },
+    {
+      "code": "AH-MONO-L",
+      "version": 1,
+      "family": "night_garage",
+      "title": "After Hours monogram — light",
+      "file": "assets/print-files/AH-MONO-L.v1.svg",
+      "inks": [
+        "#ebe3d2"
+      ],
+      "knockOutColour": "#2b2a28",
+      "rights": "original_owned — drawn for this project; fonts used are open-licensed and outlined",
+      "status": "concept"
+    }
+  ],
+  "conceptRenders": [
+    {
+      "variant": "LS-WBLK",
+      "product": "last-set-pump-cover-tee",
+      "kind": "front",
+      "file": "assets/concept/LS-WBLK/front.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "LS-WBLK",
+      "product": "last-set-pump-cover-tee",
+      "kind": "back",
+      "file": "assets/concept/LS-WBLK/back.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "LS-WBLK",
+      "product": "last-set-pump-cover-tee",
+      "kind": "back_unlit",
+      "file": "assets/concept/LS-WBLK/back_unlit.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "LS-WBLK",
+      "product": "last-set-pump-cover-tee",
+      "kind": "print_detail",
+      "file": "assets/concept/LS-WBLK/print_detail.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "LS-BONE",
+      "product": "last-set-pump-cover-tee",
+      "kind": "front",
+      "file": "assets/concept/LS-BONE/front.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "LS-BONE",
+      "product": "last-set-pump-cover-tee",
+      "kind": "back",
+      "file": "assets/concept/LS-BONE/back.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "LS-BONE",
+      "product": "last-set-pump-cover-tee",
+      "kind": "back_unlit",
+      "file": "assets/concept/LS-BONE/back_unlit.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "LS-BONE",
+      "product": "last-set-pump-cover-tee",
+      "kind": "print_detail",
+      "file": "assets/concept/LS-BONE/print_detail.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "NR-CHAR",
+      "product": "night-run-stringer",
+      "kind": "front",
+      "file": "assets/concept/NR-CHAR/front.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "NR-CHAR",
+      "product": "night-run-stringer",
+      "kind": "back",
+      "file": "assets/concept/NR-CHAR/back.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "NR-CHAR",
+      "product": "night-run-stringer",
+      "kind": "back_unlit",
+      "file": "assets/concept/NR-CHAR/back_unlit.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "NR-CHAR",
+      "product": "night-run-stringer",
+      "kind": "print_detail",
+      "file": "assets/concept/NR-CHAR/print_detail.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "NR-TEAL",
+      "product": "night-run-stringer",
+      "kind": "front",
+      "file": "assets/concept/NR-TEAL/front.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "NR-TEAL",
+      "product": "night-run-stringer",
+      "kind": "back",
+      "file": "assets/concept/NR-TEAL/back.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "NR-TEAL",
+      "product": "night-run-stringer",
+      "kind": "back_unlit",
+      "file": "assets/concept/NR-TEAL/back_unlit.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "NR-TEAL",
+      "product": "night-run-stringer",
+      "kind": "print_detail",
+      "file": "assets/concept/NR-TEAL/print_detail.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "HC-ASPH",
+      "product": "heat-check-training-singlet",
+      "kind": "front",
+      "file": "assets/concept/HC-ASPH/front.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "HC-ASPH",
+      "product": "heat-check-training-singlet",
+      "kind": "front_unlit",
+      "file": "assets/concept/HC-ASPH/front_unlit.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "HC-ASPH",
+      "product": "heat-check-training-singlet",
+      "kind": "print_detail",
+      "file": "assets/concept/HC-ASPH/print_detail.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "HC-ASPH",
+      "product": "heat-check-training-singlet",
+      "kind": "back",
+      "file": "assets/concept/HC-ASPH/back.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "HC-BONE",
+      "product": "heat-check-training-singlet",
+      "kind": "front",
+      "file": "assets/concept/HC-BONE/front.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "HC-BONE",
+      "product": "heat-check-training-singlet",
+      "kind": "front_unlit",
+      "file": "assets/concept/HC-BONE/front_unlit.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "HC-BONE",
+      "product": "heat-check-training-singlet",
+      "kind": "print_detail",
+      "file": "assets/concept/HC-BONE/print_detail.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "HC-BONE",
+      "product": "heat-check-training-singlet",
+      "kind": "back",
+      "file": "assets/concept/HC-BONE/back.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "AH-WBLK-CS",
+      "product": "after-hours-heavyweight-hoodie",
+      "kind": "front",
+      "file": "assets/concept/AH-WBLK-CS/front.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "AH-WBLK-CS",
+      "product": "after-hours-heavyweight-hoodie",
+      "kind": "back",
+      "file": "assets/concept/AH-WBLK-CS/back.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "AH-WBLK-CS",
+      "product": "after-hours-heavyweight-hoodie",
+      "kind": "back_unlit",
+      "file": "assets/concept/AH-WBLK-CS/back_unlit.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "AH-WBLK-CS",
+      "product": "after-hours-heavyweight-hoodie",
+      "kind": "print_detail",
+      "file": "assets/concept/AH-WBLK-CS/print_detail.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "AH-WBLK",
+      "product": "after-hours-heavyweight-hoodie",
+      "kind": "front",
+      "file": "assets/concept/AH-WBLK/front.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "AH-WBLK",
+      "product": "after-hours-heavyweight-hoodie",
+      "kind": "back",
+      "file": "assets/concept/AH-WBLK/back.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "AH-WBLK",
+      "product": "after-hours-heavyweight-hoodie",
+      "kind": "back_unlit",
+      "file": "assets/concept/AH-WBLK/back_unlit.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "AH-WBLK",
+      "product": "after-hours-heavyweight-hoodie",
+      "kind": "print_detail",
+      "file": "assets/concept/AH-WBLK/print_detail.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "AH-ASPH",
+      "product": "after-hours-heavyweight-hoodie",
+      "kind": "front",
+      "file": "assets/concept/AH-ASPH/front.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "AH-ASPH",
+      "product": "after-hours-heavyweight-hoodie",
+      "kind": "back",
+      "file": "assets/concept/AH-ASPH/back.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "AH-ASPH",
+      "product": "after-hours-heavyweight-hoodie",
+      "kind": "back_unlit",
+      "file": "assets/concept/AH-ASPH/back_unlit.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "AH-ASPH",
+      "product": "after-hours-heavyweight-hoodie",
+      "kind": "print_detail",
+      "file": "assets/concept/AH-ASPH/print_detail.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "FW-WBLK",
+      "product": "floor-work-training-shorts",
+      "kind": "front",
+      "file": "assets/concept/FW-WBLK/front.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "FW-WBLK",
+      "product": "floor-work-training-shorts",
+      "kind": "front_unlit",
+      "file": "assets/concept/FW-WBLK/front_unlit.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "FW-WBLK",
+      "product": "floor-work-training-shorts",
+      "kind": "print_detail",
+      "file": "assets/concept/FW-WBLK/print_detail.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "FW-WBLK",
+      "product": "floor-work-training-shorts",
+      "kind": "back",
+      "file": "assets/concept/FW-WBLK/back.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "FW-TEAL",
+      "product": "floor-work-training-shorts",
+      "kind": "front",
+      "file": "assets/concept/FW-TEAL/front.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "FW-TEAL",
+      "product": "floor-work-training-shorts",
+      "kind": "front_unlit",
+      "file": "assets/concept/FW-TEAL/front_unlit.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "FW-TEAL",
+      "product": "floor-work-training-shorts",
+      "kind": "print_detail",
+      "file": "assets/concept/FW-TEAL/print_detail.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "FW-TEAL",
+      "product": "floor-work-training-shorts",
+      "kind": "back",
+      "file": "assets/concept/FW-TEAL/back.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "CT-NIGHT",
+      "product": "closing-time-warm-up-jacket",
+      "kind": "front",
+      "file": "assets/concept/CT-NIGHT/front.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "CT-NIGHT",
+      "product": "closing-time-warm-up-jacket",
+      "kind": "back",
+      "file": "assets/concept/CT-NIGHT/back.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "CT-NIGHT",
+      "product": "closing-time-warm-up-jacket",
+      "kind": "back_unlit",
+      "file": "assets/concept/CT-NIGHT/back_unlit.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "variant": "CT-NIGHT",
+      "product": "closing-time-warm-up-jacket",
+      "kind": "print_detail",
+      "file": "assets/concept/CT-NIGHT/print_detail.webp",
+      "source": "concept_render",
+      "note": "Illustrated render. Not a photograph of produced stock."
+    },
+    {
+      "outfit": "training-0113",
+      "kind": "lookbook",
+      "file": "assets/concept/outfits/training-0113.webp",
+      "source": "concept_render",
+      "note": "Styled flat-lay composed from concept renders."
+    },
+    {
+      "outfit": "closing-warm-up",
+      "kind": "lookbook",
+      "file": "assets/concept/outfits/closing-warm-up.webp",
+      "source": "concept_render",
+      "note": "Styled flat-lay composed from concept renders."
+    }
+  ],
+  "scenes": [
+    {
+      "file": "public/scenes/hero-desktop.webp",
+      "note": "Original illustration: coastal gym at 1:13 a.m. Concept art."
+    },
+    {
+      "file": "public/scenes/hero-mobile.webp",
+      "note": "Mobile crop of the same illustration."
+    }
+  ],
+  "excluded": [
+    {
+      "item": "Vice City banner (referenced in the brief)",
+      "status": "Not included. Not supplied to this build; commercial rights unconfirmed. Used only as a written mood reference."
+    },
+    {
+      "item": "vendettasociety.shop",
+      "status": "Studied for UX patterns only (hero product, lookbook hotspots, size access, personalisation). No layout, photography, product names, assets or copy copied."
+    },
+    {
+      "item": "Game trademarks, logos and fonts (e.g. GTA / Vice City wordmarks, 'Pricedown'-style lettering)",
+      "status": "Deliberately not used."
+    }
+  ],
+  "personalizationTemplates": [
+    {
+      "code": "LT-SINGLET-UB",
+      "version": 1,
+      "font": {
+        "name": "Big Shoulders Stencil Display ExtraBold",
+        "version": "2.001",
+        "license": "SIL OFL 1.1"
+      },
+      "areaOnRenderFraction": {
+        "x": 0.36666666666666664,
+        "y": 0.26666666666666666,
+        "w": 0.26666666666666666,
+        "h": 0.22
+      },
+      "areaMm": {
+        "widthMm": 260,
+        "heightMm": 230,
+        "offsetFromCollarMm": 70
+      },
+      "status": "draft — print area in mm must be confirmed by the supplier before enabling in production"
+    }
+  ]
+}

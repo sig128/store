@@ -1,0 +1,48 @@
+{
+  "training-0113": [
+    {
+      "product": "last-set-pump-cover-tee",
+      "variant": "LS-WBLK",
+      "x": 2944,
+      "y": 3816
+    },
+    {
+      "product": "night-run-stringer",
+      "variant": "NR-CHAR",
+      "x": 7056,
+      "y": 2436
+    },
+    {
+      "product": "floor-work-training-shorts",
+      "variant": "FW-WBLK",
+      "x": 7611,
+      "y": 7504
+    }
+  ],
+  "closing-warm-up": [
+    {
+      "product": "closing-time-warm-up-jacket",
+      "variant": "CT-NIGHT",
+      "x": 2889,
+      "y": 3888
+    },
+    {
+      "product": "after-hours-heavyweight-hoodie",
+      "variant": "AH-ASPH",
+      "x": 6944,
+      "y": 2432
+    },
+    {
+      "product": "floor-work-training-shorts",
+      "variant": "FW-TEAL",
+      "x": 8056,
+      "y": 7000
+    },
+    {
+      "product": "heat-check-training-singlet",
+      "variant": "HC-ASPH",
+      "x": 6139,
+      "y": 6666
+    }
+  ]
+}

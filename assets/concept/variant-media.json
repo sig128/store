@@ -1,0 +1,314 @@
+{
+  "LS-WBLK": [
+    {
+      "file": "assets/concept/LS-WBLK/front.webp",
+      "kind": "front",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/LS-WBLK/back.webp",
+      "kind": "back",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/LS-WBLK/back_unlit.webp",
+      "kind": "back_unlit",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/LS-WBLK/print_detail.webp",
+      "kind": "print_detail",
+      "width": 1400,
+      "height": 1400
+    }
+  ],
+  "LS-BONE": [
+    {
+      "file": "assets/concept/LS-BONE/front.webp",
+      "kind": "front",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/LS-BONE/back.webp",
+      "kind": "back",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/LS-BONE/back_unlit.webp",
+      "kind": "back_unlit",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/LS-BONE/print_detail.webp",
+      "kind": "print_detail",
+      "width": 1400,
+      "height": 1400
+    }
+  ],
+  "NR-CHAR": [
+    {
+      "file": "assets/concept/NR-CHAR/front.webp",
+      "kind": "front",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/NR-CHAR/back.webp",
+      "kind": "back",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/NR-CHAR/back_unlit.webp",
+      "kind": "back_unlit",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/NR-CHAR/print_detail.webp",
+      "kind": "print_detail",
+      "width": 1400,
+      "height": 1400
+    }
+  ],
+  "NR-TEAL": [
+    {
+      "file": "assets/concept/NR-TEAL/front.webp",
+      "kind": "front",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/NR-TEAL/back.webp",
+      "kind": "back",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/NR-TEAL/back_unlit.webp",
+      "kind": "back_unlit",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/NR-TEAL/print_detail.webp",
+      "kind": "print_detail",
+      "width": 1400,
+      "height": 1400
+    }
+  ],
+  "HC-ASPH": [
+    {
+      "file": "assets/concept/HC-ASPH/front.webp",
+      "kind": "front",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/HC-ASPH/front_unlit.webp",
+      "kind": "front_unlit",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/HC-ASPH/print_detail.webp",
+      "kind": "print_detail",
+      "width": 1400,
+      "height": 1400
+    },
+    {
+      "file": "assets/concept/HC-ASPH/back.webp",
+      "kind": "back",
+      "width": 1200,
+      "height": 1500
+    }
+  ],
+  "HC-BONE": [
+    {
+      "file": "assets/concept/HC-BONE/front.webp",
+      "kind": "front",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/HC-BONE/front_unlit.webp",
+      "kind": "front_unlit",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/HC-BONE/print_detail.webp",
+      "kind": "print_detail",
+      "width": 1400,
+      "height": 1400
+    },
+    {
+      "file": "assets/concept/HC-BONE/back.webp",
+      "kind": "back",
+      "width": 1200,
+      "height": 1500
+    }
+  ],
+  "AH-WBLK-CS": [
+    {
+      "file": "assets/concept/AH-WBLK-CS/front.webp",
+      "kind": "front",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/AH-WBLK-CS/back.webp",
+      "kind": "back",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/AH-WBLK-CS/back_unlit.webp",
+      "kind": "back_unlit",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/AH-WBLK-CS/print_detail.webp",
+      "kind": "print_detail",
+      "width": 1400,
+      "height": 1400
+    }
+  ],
+  "AH-WBLK": [
+    {
+      "file": "assets/concept/AH-WBLK/front.webp",
+      "kind": "front",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/AH-WBLK/back.webp",
+      "kind": "back",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/AH-WBLK/back_unlit.webp",
+      "kind": "back_unlit",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/AH-WBLK/print_detail.webp",
+      "kind": "print_detail",
+      "width": 1400,
+      "height": 1400
+    }
+  ],
+  "AH-ASPH": [
+    {
+      "file": "assets/concept/AH-ASPH/front.webp",
+      "kind": "front",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/AH-ASPH/back.webp",
+      "kind": "back",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/AH-ASPH/back_unlit.webp",
+      "kind": "back_unlit",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/AH-ASPH/print_detail.webp",
+      "kind": "print_detail",
+      "width": 1400,
+      "height": 1400
+    }
+  ],
+  "FW-WBLK": [
+    {
+      "file": "assets/concept/FW-WBLK/front.webp",
+      "kind": "front",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/FW-WBLK/front_unlit.webp",
+      "kind": "front_unlit",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/FW-WBLK/print_detail.webp",
+      "kind": "print_detail",
+      "width": 1400,
+      "height": 1400
+    },
+    {
+      "file": "assets/concept/FW-WBLK/back.webp",
+      "kind": "back",
+      "width": 1200,
+      "height": 1500
+    }
+  ],
+  "FW-TEAL": [
+    {
+      "file": "assets/concept/FW-TEAL/front.webp",
+      "kind": "front",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/FW-TEAL/front_unlit.webp",
+      "kind": "front_unlit",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/FW-TEAL/print_detail.webp",
+      "kind": "print_detail",
+      "width": 1400,
+      "height": 1400
+    },
+    {
+      "file": "assets/concept/FW-TEAL/back.webp",
+      "kind": "back",
+      "width": 1200,
+      "height": 1500
+    }
+  ],
+  "CT-NIGHT": [
+    {
+      "file": "assets/concept/CT-NIGHT/front.webp",
+      "kind": "front",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/CT-NIGHT/back.webp",
+      "kind": "back",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/CT-NIGHT/back_unlit.webp",
+      "kind": "back_unlit",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "file": "assets/concept/CT-NIGHT/print_detail.webp",
+      "kind": "print_detail",
+      "width": 1400,
+      "height": 1400
+    }
+  ]
+}
