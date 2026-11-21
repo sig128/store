@@ -15,7 +15,7 @@ An interactive gymwear storefront with its own commerce backend: Drop 01 ("Last 
 
 ## 1. Run it locally
 
-Prerequisites: Node.js 20.11+ (22 recommended), PostgreSQL 16+, and Chrome only if you run the browser tests.
+Prerequisites: Node.js 22, PostgreSQL 16+, and Chrome only if you run the browser tests.
 
 ```bash
 npm install

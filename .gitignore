@@ -4,7 +4,7 @@ out/
 coverage/
 test-results/
 playwright-report/
-storage/
+/storage/
 .env
 .env.local
 .env.*.local
